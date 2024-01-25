@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Code+Pro:wght@400;600;700&display=swap');
+
+body{
+    background: #456;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login{
+    width: 400px;
+    margin: 16px auto;
+}
+
+.login-header,
+.login p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.login-header{
+    background: #28d;
+    padding: 20px;  /* top, right, buttom and left */
+    font-size: 1.4rem;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.login-container{
+    background: #ebebeb;
+    padding: 12px;
+}
+
+.login p{
+    padding: 12px;
+}
+
+.login input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+}
+
+.login input[type="email"],
+.login input[type="password"]{
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+}
+
+.login input[type="submit"]{
+    background: #28d;
+    border-color: transparent;
+    color: #fff;
+    cursor:pointer;
+}
+
+.login input[type="email"]:focus,
+.login input[type="password"]:focus{
+    border-color: #888;
+}
+
+.login input[type="submit"]:hover{
+    background: red;
+}
+
+.login input[type="submit"]:focus{
+    border-color: red;
+}
